@@ -22,7 +22,7 @@ module.exports = {
   },
 
   insertCoin: function(coinType){
-    var value = this.getAmount(coinType);
+    var value = changeHandler.getAmount(coinType);
     balanceManager.increaseBalance(value);
   },
 
