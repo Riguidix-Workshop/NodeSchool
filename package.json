@@ -7,7 +7,9 @@
     "javascripting": "javascripting",
     "javascripting-verify": "javascripting verify",
     "bestpractices": "js-best-practices",
-    "bestpractices-verify": "js-best-practices verify"
+    "bestpractices-verify": "js-best-practices verify",
+    "scc": "scope-chains-closures",
+    "scc-verify": "scope-chains-closures verify"
   },
   "repository": {
     "type": "git",
