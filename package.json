@@ -27,6 +27,7 @@
   "dependencies": {
     "@workshoppers/scope-chains-closures": "^1.0.5",
     "javascripting": "^2.7.3",
-    "js-best-practices": "^1.2.0"
+    "js-best-practices": "^1.2.0",
+    "promise-it-wont-hurt": "^1.1.3"
   }
 }
