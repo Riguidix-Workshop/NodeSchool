@@ -5,14 +5,6 @@ module.exports = {
         // [n]ickel
         // [d]ime
         // [q]uarter
-
-        var coins = {
-            'p': 1,
-            'n': 5,
-            'd': 10,
-            'q': 25
-        }
-
         var coinsKeys = Object.keys(coins);
 
         var index = coinsKeys.indexOf(coinType);
@@ -22,5 +14,32 @@ module.exports = {
         } else {
             throw new Error(`Unrecognized coin ${coinType}`);
         }
+    },
+
+    convertToChange: function(balance) {
+        var result = [];
+
+        while (balance > 0) {
+            if (balance - 25 >= 0) {
+                result.push('q');
+
+                balance -= 25;
+            } else if (balance - 10 >= 0) {
+                result.push('d');
+
+                balance -= 10;
+            } else if (balance - 5 >= 0) {
+                result.push('n');
+
+                balance -= 5;
+            } else if (balance - 1 >= 0) {
+                result.push('p');
+
+                balance -= 1;
+            }
+
+        }
+
+        return result.sort();
     }
 };
