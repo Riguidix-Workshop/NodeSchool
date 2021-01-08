@@ -1,4 +1,3 @@
-
 var balanceManager = require('./balanceManager');
 var changeHandler = require('./changeHandler');
 var productInventory = require('./productInventory');
@@ -8,14 +7,6 @@ module.exports = {
     var value = changeHandler.getAmount(coinType);
     
     balanceManager.increaseBalance(value);
-  },
-
-  isValidAmount: function(amount){
-    if(amount === null){
-      return false;
-    } else {
-      return true;
-    }
   },
 
   releaseChange: function(){

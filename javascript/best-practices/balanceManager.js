@@ -2,8 +2,6 @@ var balance = 0;
 
 module.exports = {
     decreaseBalance: function(amount) {
-        // This method decreases the balance of the vending machine. If the balance amount is not 
-        // enough to cover the purchase, the method throws an error. 
         var errorMessage;
 
         if (!this.canAfford(amount)) {
@@ -26,14 +24,24 @@ module.exports = {
     },
 
     canAfford: function(amount) {
-        // if (!this.isValidAmount(amount)) {
-        //   errorMessage = "Invalid Input";
-        // }
+        var errorMessage;
 
-        // if (errorMessage) {
-        //   throw new Error(errorMessage);
-        // }
-        
+        if (!this.isValidAmount(amount)){
+            errorMessage = 'Invalid Input';
+        }
+
+        if (errorMessage){
+            throw new Error(errorMessage);
+        }
+
         return amount <= balance;
+    },
+
+    isValidAmount: function(amount){
+        if(amount === null || amount === undefined){
+          return false;
+        } else {
+          return true;
+        }
     },    
 };
