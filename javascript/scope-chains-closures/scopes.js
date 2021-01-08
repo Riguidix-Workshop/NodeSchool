@@ -5,5 +5,8 @@ function foo () {
 
 	function zip() {
 		var quux = 'I am an Inner Variable';
+		bar = true;
 	}
+
+	return zip;
 }
