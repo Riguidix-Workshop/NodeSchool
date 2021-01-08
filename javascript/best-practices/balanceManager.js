@@ -1,3 +1,4 @@
+
 var balance = 0;
 
 module.exports = {
@@ -24,16 +25,6 @@ module.exports = {
     },
 
     canAfford: function(amount) {
-        var errorMessage;
-
-        if (!this.isValidAmount(amount)){
-            errorMessage = 'Invalid Input';
-        }
-
-        if (errorMessage){
-            throw new Error(errorMessage);
-        }
-
         return amount <= balance;
     },
 

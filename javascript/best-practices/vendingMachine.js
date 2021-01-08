@@ -3,6 +3,10 @@ var changeHandler = require('./changeHandler');
 var productInventory = require('./productInventory');
 
 module.exports = {
+  getProducts: function() { 
+    return products;
+  },
+
   insertCoin: function(coinType){
     var value = changeHandler.getAmount(coinType);
     
@@ -10,11 +14,11 @@ module.exports = {
   },
 
   releaseChange: function(){
-    var currentBalance = balanceManager.getBalance();
+    var balance = balanceManager.getBalance();
 
-    balanceManager.decreaseBalance(currentBalance);
+    balanceManager.decreaseBalance(balance);
 
-    return this.convertToChange(currentBalance);
+    return changeHandler.convertToChange(balance);
   },
 
   vendProduct: function(productId){
