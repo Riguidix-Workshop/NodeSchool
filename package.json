@@ -6,7 +6,8 @@
   "scripts": {
     "javascripting": "javascripting",
     "javascripting-verify": "javascripting verify",
-    "bestpractices": "js-best-practices"
+    "bestpractices": "js-best-practices",
+    "bestpractices-verify": "js-best-practices verify"
   },
   "repository": {
     "type": "git",
