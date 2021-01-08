@@ -1,0 +1,25 @@
+{
+  "name": "nodeschool",
+  "version": "1.0.0",
+  "description": "Working at the Tutorials provided by NodeSchool.io",
+  "main": "index.js",
+  "scripts": {
+    "javascripting": "javascripting"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riguidix-Workshop/NodeSchool.git"
+  },
+  "keywords": [
+    "NodeSchool"
+  ],
+  "author": "Riguidix Rodriguez <reydescelrodriguez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Riguidix-Workshop/NodeSchool/issues"
+  },
+  "homepage": "https://github.com/Riguidix-Workshop/NodeSchool#readme",
+  "dependencies": {
+    "javascripting": "^2.7.3"
+  }
+}
