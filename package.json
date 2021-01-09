@@ -11,7 +11,9 @@
     "scc": "scope-chains-closures",
     "scc-verify": "scope-chains-closures verify",
     "piwh": "promise-it-wont-hurt",
-    "piwh-verify": "promise-it-wont-hurt verify"
+    "piwh-verify": "promise-it-wont-hurt verify",
+    "lodash": "lololodash",
+    "lodash-verify": "lololodash verify"
   },
   "repository": {
     "type": "git",
