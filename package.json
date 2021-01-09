@@ -28,6 +28,7 @@
   "homepage": "https://github.com/Riguidix-Workshop/NodeSchool#readme",
   "dependencies": {
     "@workshoppers/scope-chains-closures": "^1.0.5",
+    "es6-promise": "^4.2.8",
     "javascripting": "^2.7.3",
     "js-best-practices": "^1.2.0",
     "promise-it-wont-hurt": "^1.1.3"
