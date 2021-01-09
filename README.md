@@ -9,14 +9,14 @@ This curriculum heavily realies on [NodeSchool.io](http://nodeschool.io) for the
 > Have lingering questions about why you should be doing JavaScipt? Check out this [presentation](http://slides.com/doguhanuluca/agile-done-right-using-javascript-and-node-3#/) on Why JavaScript?
 
 ### Before You Begin
-It is *highly recommended* that your `fork` this repository, keep track of your learning progress by adding `x`es inside the `[ ]` checkboxes and committing them to your own repository. 
+It is *highly recommended* that your `fork` this repository, keep track of your learning progress by adding `x`es inside the `[ ]` checkboxes and committing them to your own repository.
 
 ### New to Collaborative & Open Source Programming?
 - [x] To collaborate with others and track your own progress, you'll need to create a GitHub account. [Create an account](https://github.com/)
 - [x] Install a Git client,
   - Simple:
-    - [GitHub for Windows](https://windows.github.com/) 
-    - [GitHub for Mac](https://mac.github.com/) 
+    - [GitHub for Windows](https://windows.github.com/)
+    - [GitHub for Mac](https://mac.github.com/)
   - Advanced:
     - [GitExtensions (Windows)](http://sourceforge.net/projects/gitextensions/)
     - [Tower (Mac)](http://www.git-tower.com/)
@@ -42,7 +42,7 @@ The Internet is a vast cache of information and if you know how to navigatge it 
 
 - Always and always Google what you're looking for first. If what you're looking for isn't in the first page of results, then try again with different query.
 - Prefer [StackOverflow](http://stackoverflow.com) links or got there directly.
-- If the above strategies fail, then feel free the [create a GitHub issue](https://github.com/excellalabs/the-javascript-curriculum/issues) on this repo. 
+- If the above strategies fail, then feel free the [create a GitHub issue](https://github.com/excellalabs/the-javascript-curriculum/issues) on this repo.
 - Always provide full and complete information when asking for help.
 - Specific questions are far more likely to get answered, than general/generic questions.
 
@@ -50,7 +50,7 @@ The Internet is a vast cache of information and if you know how to navigatge it 
 - [x] Don't how to work the console, command line, CLI or bash? Start with the basics [here](https://swcarpentry.github.io/shell-novice/01-intro/)
 - [x] Open up command line/console. Type in `node`, do you see `> `? If yes *great*, hit `Ctrl+C` to terminate the currently running `node` process. If no, then see `How to ask for help`.
 - [x] Type in `npm`, do you see `Usage: npm <command>`?
-- You're ready to start learning, using the self guided workshoppers. Good luck! 
+- You're ready to start learning, using the self guided workshoppers. Good luck!
 - [ ] Learn how to use Git and GitHub basics.
   - Run `npm install -g git-it`
   - Then `git-it`
@@ -59,7 +59,7 @@ The Internet is a vast cache of information and if you know how to navigatge it 
   - Run `npm install -g javascripting`
   - Then `javascripting`
   - Additional info https://github.com/sethvincent/javascripting
-  
+
 ### A Re-Introduction to JavaScript
  - [ ] Introduction to modern JavaScript by [Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 
@@ -68,9 +68,9 @@ The Internet is a vast cache of information and if you know how to navigatge it 
 - [X] Learn the details of Scope, Scope Chains, Closures, and Garbage Collection.
   - Run `npm install -g scope-chains-closures`
 - [ ] Learn fundamental functional programming features of JavaScript in vanilla ES5.
-  - `npm install -g functional-javascript-workshop` 
-- [ ] Learn to use promises in JavaScript to handle async operations.
-  - `npm install -g promise-it-wont-hurt` 
+  - `npm install -g functional-javascript-workshop`
+- [X] Learn to use promises in JavaScript to handle async operations.
+  - `npm install -g promise-it-wont-hurt`
   - Additional information: [Q.js](http://documentup.com/kriskowal/q/)
 - [ ] Learn Lo-Dash (fork of underscore) to handle your arrays and objects simple!
   - `npm install -g lololodash`
@@ -83,13 +83,13 @@ The Internet is a vast cache of information and if you know how to navigatge it 
   - `npm install -g learnyounode`
  - [ ] Advanced Node Setup
   - For Windows: https://blog.risingstack.com/node-js-windows-10-tutorial
-  - For Mac/Linux: 
+  - For Mac/Linux:
     - Manage multiple Node versions with n `npm install -g n`
     - http://docs.python-guide.org/en/latest/starting/install/osx/
  - [ ] Learn a web framework
   - [ ] Hapi.JS `npm install -g makemehapi` http://hapijs.com/
   - [ ] Express `npm install -g expressworks` http://expressjs.com/
-  
+
 ### Practice Best Practices
  - [X] Learn the best practices of writing clean JavaScript code.
   - Run `npm install -g js-best-practices`
@@ -107,10 +107,10 @@ The Internet is a vast cache of information and if you know how to navigatge it 
   - http://www.w3schools.com/html/html5_intro.asp
  - [ ] CSS 3
   - http://www.w3schools.com/css/css3_intro.asp
-  
+
 ### UI Frameworks
  - [ ] ReactJS https://facebook.github.io/react/
-  
+
 ### Learn Single Page Applications (SPAs)
  - [ ] Legacy Angular.js https://angularjs.org/
  - [ ] Angular 4 https://angular.io/
@@ -159,7 +159,7 @@ The Internet is a vast cache of information and if you know how to navigatge it 
 - [ ] Find your way through the web performance optimization maze!
   - `npm install -g perfschool`
 
-### Advanced Data Persistence 
+### Advanced Data Persistence
 - [ ] Learn about CouchDB - the database that completely embraces the web
   - `npm install -g learnyoucouchdb`
 - [ ] Getting started with MongoDB and Node.js
